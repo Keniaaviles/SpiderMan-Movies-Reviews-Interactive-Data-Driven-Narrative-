@@ -213,7 +213,7 @@ export function MultiverseDistortionRings() {
 
           {/* Instructions */}
           <div className="mt-6 text-center text-xs text-muted-foreground">
-            Click a portal to see detailed distortion metrics. Solid rings = above average, dashed = below average.
+            Click a portal to see detailed distortion metrics.
           </div>
         </div>
 
