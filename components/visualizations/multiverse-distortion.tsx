@@ -78,7 +78,7 @@ export function MultiverseDistortionRings() {
           </div>
 
           {/* Portals Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 lg:gap-14 p-4">
             {moviesWithDistortion.map((movie, index) => {
               const isSelected = selectedMovie === movie.movie
               const maxDistortion = Math.max(
@@ -87,8 +87,8 @@ export function MultiverseDistortionRings() {
                 Math.abs(movie.helpfulDistortion)
               )
               
-              // Portal size based on total distortion
-              const portalSize = 80 + (movie.totalDistortion * 20)
+              // Portal size based on total distortion (smaller base to prevent overlap)
+              const portalSize = 70 + (movie.totalDistortion * 15)
               
               return (
                 <motion.div

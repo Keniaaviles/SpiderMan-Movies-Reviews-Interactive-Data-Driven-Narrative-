@@ -298,11 +298,19 @@ export default function SpiderManScrollytelling() {
       {/* Trailer Section */}
       <TrailerSection />
 
-      {/* Final Quote */}
-      <TransitionSection 
-        quote="The next movie is not starting from zero. It is walking into twenty years of fan memory."
-        accentColor="red"
-      />
+      {/* Final Question */}
+      <FullscreenSection background="dark">
+        <div className="flex items-center justify-center min-h-[50vh] px-4">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center max-w-4xl leading-tight"
+          >
+            Will the next movie be better than all of the previous ones?
+          </motion.h2>
+        </div>
+      </FullscreenSection>
 
       {/* Conclusion */}
       <div id="conclusion">
