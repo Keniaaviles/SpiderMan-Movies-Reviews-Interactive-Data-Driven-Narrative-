@@ -1,0 +1,77 @@
+{
+  "description": "Most helpful fan reviews from Spider-Man movies",
+  "items": [
+    {
+      "movie": "Spider-Man: No Way Home",
+      "title": "A love letter to Spider-Man fans everywhere",
+      "rating": 10,
+      "helpful_votes": 2847,
+      "total_votes": 3156,
+      "date": "2021-12-17",
+      "excerpt": "This movie made me feel like a kid again. Seeing all three Spider-Men together, fighting side by side, was everything I dreamed about since I was eight years old watching Tobey swing through New York."
+    },
+    {
+      "movie": "Spider-Man: Into the Spider-Verse",
+      "title": "Animation has never looked this good",
+      "rating": 10,
+      "helpful_votes": 1987,
+      "total_votes": 2234,
+      "date": "2018-12-21",
+      "excerpt": "Every single frame of this movie could be printed and hung on a wall. The animation style is revolutionary, but what really gets you is the heart. Miles earns his place as Spider-Man in a way that feels fresh and deeply personal."
+    },
+    {
+      "movie": "Spider-Man 2",
+      "title": "Still the gold standard for superhero movies",
+      "rating": 10,
+      "helpful_votes": 1654,
+      "total_votes": 1876,
+      "date": "2004-07-15",
+      "excerpt": "Doc Ock is the greatest villain in any Spider-Man movie. The train scene alone puts this above every other superhero movie. Peter's struggle between his life and his responsibility has never been portrayed better."
+    },
+    {
+      "movie": "Spider-Man: No Way Home",
+      "title": "Andrew finally got the redemption he deserved",
+      "rating": 9,
+      "helpful_votes": 1543,
+      "total_votes": 1765,
+      "date": "2021-12-19",
+      "excerpt": "When Andrew caught MJ, I lost it. The theater went completely silent and then erupted. After years of people dismissing his Spider-Man, this movie finally let him be the hero his version always could have been."
+    },
+    {
+      "movie": "Spider-Man",
+      "title": "Where it all started for a generation",
+      "rating": 9,
+      "helpful_votes": 1432,
+      "total_votes": 1654,
+      "date": "2002-05-12",
+      "excerpt": "This movie made me want to be a superhero. Tobey brought something vulnerable and real to Peter Parker that still holds up today. The upside-down kiss is iconic for a reason."
+    },
+    {
+      "movie": "Spider-Man: Into the Spider-Verse",
+      "title": "Proof that anyone can wear the mask",
+      "rating": 10,
+      "helpful_votes": 1298,
+      "total_votes": 1456,
+      "date": "2018-12-28",
+      "excerpt": "Miles Morales represents something bigger than just another Spider-Man. Seeing a kid who looks different, speaks differently, and comes from a different world become the hero made this movie matter in a way most superhero films don't."
+    },
+    {
+      "movie": "Spider-Man: Homecoming",
+      "title": "The most fun Spider-Man has ever been",
+      "rating": 8,
+      "helpful_votes": 1187,
+      "total_votes": 1398,
+      "date": "2017-07-10",
+      "excerpt": "Tom Holland captures the awkward, nerdy, excited energy of a high school kid who suddenly has superpowers. The Vulture twist caught everyone in my theater off guard. Marvel finally got Spider-Man right."
+    },
+    {
+      "movie": "Spider-Man: No Way Home",
+      "title": "This is what fan service should be",
+      "rating": 10,
+      "helpful_votes": 1098,
+      "total_votes": 1234,
+      "date": "2022-01-05",
+      "excerpt": "No Way Home doesn't just bring back old characters for cheap nostalgia. Every returning face serves the story. Tobey and Andrew aren't cameos, they're essential to what this movie is trying to say about legacy and second chances."
+    }
+  ]
+}

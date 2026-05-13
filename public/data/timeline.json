@@ -1,0 +1,25 @@
+{
+  "description": "Review activity timeline showing when Spider-Man fans were most active",
+  "items": [
+    { "period": "2002-05", "reviews": 456, "top_movie": "Spider-Man", "top_movie_reviews": 456 },
+    { "period": "2002-06", "reviews": 387, "top_movie": "Spider-Man", "top_movie_reviews": 387 },
+    { "period": "2004-07", "reviews": 412, "top_movie": "Spider-Man 2", "top_movie_reviews": 412 },
+    { "period": "2004-08", "reviews": 298, "top_movie": "Spider-Man 2", "top_movie_reviews": 298 },
+    { "period": "2007-05", "reviews": 534, "top_movie": "Spider-Man 3", "top_movie_reviews": 534 },
+    { "period": "2007-06", "reviews": 423, "top_movie": "Spider-Man 3", "top_movie_reviews": 423 },
+    { "period": "2012-07", "reviews": 389, "top_movie": "The Amazing Spider-Man", "top_movie_reviews": 389 },
+    { "period": "2012-08", "reviews": 267, "top_movie": "The Amazing Spider-Man", "top_movie_reviews": 267 },
+    { "period": "2014-05", "reviews": 312, "top_movie": "The Amazing Spider-Man 2", "top_movie_reviews": 312 },
+    { "period": "2014-06", "reviews": 234, "top_movie": "The Amazing Spider-Man 2", "top_movie_reviews": 234 },
+    { "period": "2017-07", "reviews": 423, "top_movie": "Spider-Man: Homecoming", "top_movie_reviews": 423 },
+    { "period": "2017-08", "reviews": 298, "top_movie": "Spider-Man: Homecoming", "top_movie_reviews": 298 },
+    { "period": "2018-12", "reviews": 567, "top_movie": "Spider-Man: Into the Spider-Verse", "top_movie_reviews": 567 },
+    { "period": "2019-01", "reviews": 456, "top_movie": "Spider-Man: Into the Spider-Verse", "top_movie_reviews": 456 },
+    { "period": "2019-07", "reviews": 623, "top_movie": "Spider-Man: Far From Home", "top_movie_reviews": 623 },
+    { "period": "2019-08", "reviews": 487, "top_movie": "Spider-Man: Far From Home", "top_movie_reviews": 487 },
+    { "period": "2021-12", "reviews": 1876, "top_movie": "Spider-Man: No Way Home", "top_movie_reviews": 1876 },
+    { "period": "2022-01", "reviews": 1234, "top_movie": "Spider-Man: No Way Home", "top_movie_reviews": 1234 },
+    { "period": "2022-02", "reviews": 876, "top_movie": "Spider-Man: No Way Home", "top_movie_reviews": 876 },
+    { "period": "2022-03", "reviews": 543, "top_movie": "Spider-Man: No Way Home", "top_movie_reviews": 543 }
+  ]
+}

@@ -77,12 +77,7 @@ export default function SpiderManScrollytelling() {
         </div>
       </section>
 
-      {/* Transition Quote */}
-      <TransitionSection 
-        quote="With great data comes great insight"
-        author="Every Data Analyst, Probably"
-        accentColor="red"
-      />
+
 
       {/* Section 1: The Volume of Voices - Flourish Pie Chart */}
       <div id="volume">
@@ -356,13 +351,7 @@ export default function SpiderManScrollytelling() {
                   Read Marvel&apos;s update on Brand New Day
                   <ExternalLink className="w-4 h-4" />
                 </motion.a>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-8 py-4 bg-transparent border-2 border-spidey-blue text-spidey-blue font-bold rounded-full hover:bg-spidey-blue/10 transition-colors"
-                >
-                  Methodology
-                </motion.button>
+
               </div>
             </FadeInText>
           </div>
@@ -379,7 +368,7 @@ export default function SpiderManScrollytelling() {
                 <span className="text-spidey-blue">-DATA</span>
               </h3>
               <p className="text-sm text-muted-foreground">
-                A fan data story exploring twenty years of reviews
+                Created by Kenia Aviles Quintero
               </p>
             </div>
             
@@ -401,7 +390,7 @@ export default function SpiderManScrollytelling() {
           <div className="mt-12 pt-8 border-t border-border/20 text-center text-xs text-muted-foreground">
             <p>Data visualization powered by Flourish</p>
             <p className="mt-2">Spider-Man and related characters are trademarks of Marvel Entertainment</p>
-            <p className="mt-4 text-muted-foreground/60">Created by Kenia Aviles Quintero</p>
+            <p className="mt-4 text-muted-foreground/60">Built with data from IMDb reviews</p>
           </div>
         </div>
       </footer>

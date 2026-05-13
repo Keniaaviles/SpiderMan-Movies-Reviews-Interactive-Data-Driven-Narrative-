@@ -1,0 +1,77 @@
+{
+  "description": "Spider-Man movie metrics including review count, average rating, helpful votes, and fan impact score",
+  "movies": [
+    {
+      "movie": "Spider-Man",
+      "release_year": 2002,
+      "review_count": 2345,
+      "avg_rating": 6.3,
+      "avg_helpful_votes": 12.4,
+      "spider_sense_score": 58.2
+    },
+    {
+      "movie": "Spider-Man 2",
+      "release_year": 2004,
+      "review_count": 1644,
+      "avg_rating": 6.6,
+      "avg_helpful_votes": 14.8,
+      "spider_sense_score": 52.1
+    },
+    {
+      "movie": "Spider-Man 3",
+      "release_year": 2007,
+      "review_count": 2257,
+      "avg_rating": 5.7,
+      "avg_helpful_votes": 11.2,
+      "spider_sense_score": 48.9
+    },
+    {
+      "movie": "The Amazing Spider-Man",
+      "release_year": 2012,
+      "review_count": 1524,
+      "avg_rating": 6.4,
+      "avg_helpful_votes": 10.6,
+      "spider_sense_score": 45.3
+    },
+    {
+      "movie": "The Amazing Spider-Man 2",
+      "release_year": 2014,
+      "review_count": 1347,
+      "avg_rating": 5.9,
+      "avg_helpful_votes": 9.8,
+      "spider_sense_score": 38.7
+    },
+    {
+      "movie": "Spider-Man: Homecoming",
+      "release_year": 2017,
+      "review_count": 1567,
+      "avg_rating": 6.3,
+      "avg_helpful_votes": 8.9,
+      "spider_sense_score": 44.2
+    },
+    {
+      "movie": "Spider-Man: Into the Spider-Verse",
+      "release_year": 2018,
+      "review_count": 2146,
+      "avg_rating": 8.5,
+      "avg_helpful_votes": 18.2,
+      "spider_sense_score": 78.4
+    },
+    {
+      "movie": "Spider-Man: Far From Home",
+      "release_year": 2019,
+      "review_count": 2333,
+      "avg_rating": 6.9,
+      "avg_helpful_votes": 7.5,
+      "spider_sense_score": 52.8
+    },
+    {
+      "movie": "Spider-Man: No Way Home",
+      "release_year": 2021,
+      "review_count": 6065,
+      "avg_rating": 8.2,
+      "avg_helpful_votes": 15.3,
+      "spider_sense_score": 92.6
+    }
+  ]
+}

@@ -62,7 +62,7 @@ export function NYCBanner() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-lg md:text-xl text-muted-foreground leading-relaxed"
+            className="text-lg md:text-xl text-white font-bold leading-relaxed"
           >
             The reviews tell us what fans carried with them after leaving the theater.
           </motion.p>
