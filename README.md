@@ -1,35 +1,200 @@
-# SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative-
+# Spider-Man Fan Review Universe
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+An interactive Spider-Man data storytelling project built using IMDb review data, custom visualizations and cinematic-inspired design. The project explores audience reactions, emotional themes and fan engagement across different Spider-Man movie eras.
 
-## Built with v0
+---
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+# Tech Stack
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_Qo9u1H51W1iVTsp82KDzNAEiE8dh)
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Chart.js
+* Flourish Embeds
+* CSV Data Processing
 
-## Getting Started
+---
 
-First, run the development server:
+# Main Dataset
+
+The project uses a CSV dataset located in:
+
+```bash
+public/data/spiderman_reviews.csv
+```
+
+Dataset columns:
+
+* Rating
+* Title
+* Date
+* Helpful_Vote
+* Total_Vote
+* Review
+* Movie
+
+---
+
+# Features
+
+## The Fan Memory Web
+
+Analyzes recurring fan language and emotional themes across Spider-Man movies.
+
+## Spider-Sense Timeline
+
+Tracks review activity over time and shows how audience discussion changed around releases.
+
+## Movie Comparison Systems
+
+Uses aggregated movie-level review data to compare:
+
+* audience ratings
+* review engagement
+* emotional themes
+* fan agreement
+
+## Interactive Cinematic Design
+
+The site is designed to feel immersive and comic-inspired rather than looking like a standard analytics dashboard.
+
+---
+
+# Important Project Structure
+
+```bash
+app/                      → Main Next.js app pages
+components/               → Reusable UI + visualization components
+components/visualizations → Custom data visualizations
+public/data/              → CSV dataset
+styles/                   → Global styling
+```
+
+---
+
+# How to Run the Project Locally
+
+Since the Vercel deployment is currently unavailable for public access, the best way to view the project is locally.
+
+## 1. Clone the Repository
+
+Open Terminal on Mac or PowerShell/Command Prompt on Windows.
+
+Copy and paste the following command exactly as shown:
+
+```bash
+git clone https://github.com/Keniaaviles/SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative-.git
+```
+
+After cloning finishes, move into the project folder:
+
+```bash
+cd SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative-
+```
+
+---
+
+# Install Dependencies
+
+This project uses Node.js.
+
+Before installing dependencies, confirm that Node.js and npm are installed.
+
+Copy and paste:
+
+```bash
+node -v
+npm -v
+```
+
+If both commands return version numbers, install all required project dependencies:
+
+```bash
+npm install
+```
+
+If npm causes installation issues, use pnpm instead:
+
+```bash
+pnpm install
+```
+
+---
+
+# Start the Development Server
+
+Once dependencies finish installing, start the local development server.
+
+Copy and paste:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
+```
+
+or
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After running the command, the terminal should display a local URL similar to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-## Learn More
+Hold Command and click the link on Mac, or Ctrl and click on Windows.
 
-To learn more, take a look at the following resources:
+You can also manually copy and paste the URL into your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+---
 
-<a href="https://v0.app/chat/api/kiro/clone/Keniaaviles/SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative-" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+# Common Issues
+
+## White Screen or Blank Page
+
+If the site opens but shows a blank white screen, follow these steps in order.
+
+Step 1 — reinstall dependencies:
+
+```bash
+npm install
+```
+
+Step 2 — restart the development server:
+
+```bash
+npm run dev
+```
+
+Step 3 — if the issue still continues, check the following:
+
+* Make sure all dependencies installed correctly
+* Make sure the CSV file exists inside `public/data/`
+* Restart the terminal completely
+* Delete `node_modules` and reinstall packages
+
+Step 4 — complete dependency reset:
+
+```bash
+rm -rf node_modules
+npm install
+npm run dev
+```
+
+---
+
+# Notes
+
+* Some visuals use embedded Flourish visualizations.
+* The experience is intended for desktop viewing.
+* The project mixes cinematic storytelling with interactive review analysis.
+
+---
+
+# Project Goal
+
+This project explores how fan reactions, nostalgia, audience agreement and emotional language changed across different Spider-Man movie eras.
+
+Instead of only showing statistics, the goal was to create something that feels alive, emotional and immersive for Spider-Man fans.
