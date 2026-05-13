@@ -41,6 +41,7 @@ export function MultiverseDistortionRings() {
   const avgHelpful = data.movies.reduce((sum, m) => sum + m.avg_helpful_votes, 0) / data.movies.length
 
   // Calculate distortion values (how far from average, as percentage)
+  // Sort by release year (oldest to newest)
   const moviesWithDistortion = data.movies.map(movie => ({
     ...movie,
     ratingDistortion: ((movie.avg_rating - avgRating) / avgRating) * 100,
@@ -49,7 +50,7 @@ export function MultiverseDistortionRings() {
     totalDistortion: Math.abs((movie.avg_rating - avgRating) / avgRating) + 
                      Math.abs((movie.review_count - avgReviews) / avgReviews) +
                      Math.abs((movie.avg_helpful_votes - avgHelpful) / avgHelpful)
-  })).sort((a, b) => b.totalDistortion - a.totalDistortion)
+  })).sort((a, b) => a.release_year - b.release_year)
 
   const selectedData = selectedMovie 
     ? moviesWithDistortion.find(m => m.movie === selectedMovie) 
@@ -77,8 +78,8 @@ export function MultiverseDistortionRings() {
             </div>
           </div>
 
-          {/* Portals Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 lg:gap-14 p-4">
+          {/* Portals Grid - 2 columns with large spacing */}
+          <div className="grid grid-cols-2 gap-16 md:gap-20 p-6">
             {moviesWithDistortion.map((movie, index) => {
               const isSelected = selectedMovie === movie.movie
               const maxDistortion = Math.max(
@@ -87,8 +88,8 @@ export function MultiverseDistortionRings() {
                 Math.abs(movie.helpfulDistortion)
               )
               
-              // Portal size based on total distortion (smaller base to prevent overlap)
-              const portalSize = 70 + (movie.totalDistortion * 15)
+              // Portal size - smaller and uniform for better spacing
+              const portalSize = 55 + (movie.totalDistortion * 8)
               
               return (
                 <motion.div
@@ -206,14 +207,14 @@ export function MultiverseDistortionRings() {
                     )}
                   </div>
 
-                  {/* Movie title */}
-                  <div className="mt-3 text-center">
-                    <div className={`text-sm font-medium transition-colors ${
+                  {/* Movie title - full name */}
+                  <div className="mt-3 text-center max-w-[120px]">
+                    <div className={`text-xs font-medium transition-colors leading-tight ${
                       isSelected ? "text-white" : "text-foreground"
                     }`}>
-                      {movie.movie.replace("Spider-Man: ", "").replace("Spider-Man ", "").replace("The Amazing ", "")}
+                      {movie.movie}
                     </div>
-                    <div className="text-xs text-muted-foreground">{movie.release_year}</div>
+                    <div className="text-xs text-muted-foreground mt-1">{movie.release_year}</div>
                   </div>
                 </motion.div>
               )
