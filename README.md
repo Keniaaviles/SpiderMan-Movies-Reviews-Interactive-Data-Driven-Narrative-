@@ -185,6 +185,30 @@ npm run dev
 
 ---
 
+# Removing the Project From Your Device
+
+If you no longer want the project on your computer, you can delete the project folder at any time.
+
+## Mac
+
+Open Terminal and run:
+
+```bash
+rm -rf SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative-
+```
+
+## Windows
+
+Open PowerShell and run:
+
+```powershell
+Remove-Item SpiderMan-Movies-Reviews-Interactive-Data-Driven-Narrative- -Recurse -Force
+```
+
+You can also manually delete the folder like any normal folder on your computer.
+
+---
+
 # Notes
 
 * Some visuals use embedded Flourish visualizations.
