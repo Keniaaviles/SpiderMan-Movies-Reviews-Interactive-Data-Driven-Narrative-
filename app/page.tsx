@@ -396,8 +396,17 @@ export default function SpiderManScrollytelling() {
           </div>
           
           <div className="mt-12 pt-8 border-t border-border/20 text-center text-xs text-muted-foreground">
-            <p>Data visualization powered by Flourish</p>
-            <p className="mt-2">Spider-Man and related characters are trademarks of Marvel Entertainment</p>
+            <p>Tools used: Flourish, Excel, Vercel</p>
+            <p className="mt-2">
+              <a 
+                href="https://www.kaggle.com/datasets/okancan/spiderman-movies-imdb-reviews?resource=download" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-spidey-red transition-colors underline"
+              >
+                Dataset: Spider-Man Movies IMDb Reviews on Kaggle
+              </a>
+            </p>
             <p className="mt-4 text-muted-foreground/60">Built with data from IMDb reviews</p>
           </div>
         </div>
